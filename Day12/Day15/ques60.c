@@ -1,0 +1,2 @@
+#include <stdio.h>
+int main(){int n,a[100],b[100],k=0;scanf("%d",&n);for(int i=0;i<n;i++)scanf("%d",&a[i]);for(int i=0;i<n;i++)if(a[i]!=0)b[k++]=a[i];while(k<n)b[k++]=0;for(int i=0;i<n;i++)printf("%d ",b[i]);}

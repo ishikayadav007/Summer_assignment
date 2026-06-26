@@ -1,1 +1,1 @@
-Batch 2: Q21-Q40 fully implemented C programs.
+Batch 3 Q41-Q60 fully implemented according to assignment PDF.
