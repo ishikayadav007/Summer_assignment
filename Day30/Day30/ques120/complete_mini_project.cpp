@@ -1,2 +1,0 @@
-#include <iostream>
-using namespace std;int main(){int ch;do{cout<<"1.Calculator\n2.Exit\n";cin>>ch;if(ch==1){double a,b;char op;cin>>a>>op>>b;switch(op){case '+':cout<<a+b;break;case '-':cout<<a-b;break;case '*':cout<<a*b;break;case '/':if(b)cout<<a/b;else cout<<"Invalid";}cout<<"\n";}}while(ch!=2);}
