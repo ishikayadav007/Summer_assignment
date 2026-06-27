@@ -1,2 +1,0 @@
-#include <iostream>
-using namespace std;int main(){double a,b;int c;do{cout<<"1.Add 2.Sub 3.Mul 4.Div 5.Exit\n";cin>>c;if(c==5)break;cin>>a>>b;switch(c){case 1:cout<<a+b;break;case 2:cout<<a-b;break;case 3:cout<<a*b;break;case 4:if(b)cout<<a/b;else cout<<"Invalid";}cout<<"\n";}while(true);}
