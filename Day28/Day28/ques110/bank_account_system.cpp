@@ -1,0 +1,2 @@
+#include <iostream>
+using namespace std;class Account{double bal=0;public:void dep(double a){bal+=a;}void wd(double a){if(a<=bal)bal-=a;}void show(){cout<<bal;}};int main(){Account a;a.dep(1000);a.wd(250);a.show();}
